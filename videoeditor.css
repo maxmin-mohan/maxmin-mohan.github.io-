@@ -1,0 +1,113 @@
+.main-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.main-container .client{
+    font-size: 20px;
+    justify-content: center;
+    align-items: right;
+    border: 1px solid rgb(76, 75, 75);
+    border-radius: 15px;
+
+}
+.heading{
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+  }
+.video-container iframe{
+    align-items: flex-start;
+    justify-items: end;
+    padding: 20px;
+}
+.client-name{
+    border: 1px solid white ;
+    border-radius: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+#video-library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Decreased frame width to 200px */
+    gap: 20px;
+}
+
+video {
+    width: 100%; /* Make the video element fill its container */
+}
+#video-library1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Decreased frame width to 200px */
+    gap: 20px;
+}
+.video-section1 {
+    text-align: center;
+    padding: 20px;
+}
+.img1 {
+    border-radius: 10%;
+    width: 100px;
+}
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(9, 9, 11, 0.826);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 100%;
+  }
+  
+  .title {
+    width: 100%;
+    display: inline-block;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .container p{
+    font-size: 10px;
+  }
+.container-shorts{
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container-shorts .card {
+    background: rgba(0, 0, 0, 0.783);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}

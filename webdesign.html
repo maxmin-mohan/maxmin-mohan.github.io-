@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Kumar Portfolio</title>
+    <link rel="icon" href="images/logo1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="webdesign.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8dd9f82cf5.js" crossorigin="anonymous"></script>
+
+    <!--Refer for Qurey: https://youtu.be/idW1DeWZhHA?si=BM16Ew9t2430nOiK -->
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">My Portfolio <span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html?#home" class="active">Home</a>
+            <a href="index.html?#about">About</a>
+            <a href="index.html?#services">Services</a>
+            <a href="index.html?#portfolio">Portfolio</a>
+            <a href="index.html?#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="clients-section" id="clients-section">
+        <h2 class="heading">Latest Works in <span>Web Design <i class="fa-brands fa-internet-explorer"></i></span></h2>
+        <br>
+        <div class="clients-container1" id="clientsContainer">
+            <!-- Client 1 -->
+            <div class="client1">
+                <img class="img1" src="images/logo1.png" alt="Client Logo">
+                <h2>Personal Portfolio</h2>
+                <button class="button1" onclick="showWork('Personal Portfolio')">Show Work</button>
+            </div>
+
+            <div class="client1">
+                <img class="img1" src="images/webeeagency.png" alt="Client Logo">
+                <h2>Webee Agency</h2>
+                <button class="button1" onclick="showWork('Client 1')">Show Work</button>
+            </div>
+
+            <div class="client1">
+                <img class="img1" src="images/1.png" alt="Client Logo">
+                <h2>Lush Haven</h2>
+                <button class="button1" onclick="showWork('Client 1')">Show Work</button>
+            </div>
+
+            <div class="client1">
+                <img class="img1" src="images/webeeagency.png" alt="Client Logo">
+                <h2>Client 1</h2>
+                <button class="button1" onclick="showWork('Client 1')">Show Work</button>
+            </div>
+
+            <div class="client1">
+                <img class="img1" src="images/webeeagency.png" alt="Client Logo">
+                <h2>Client 1</h2>
+                <button class="button1" onclick="showWork('Client 1')">Show Work</button>
+            </div>
+
+            
+    
+            <!-- Repeat similar structure for other clients (Client 2 to Client 10) -->
+    
+        </div>
+
+        <!--model html-->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Client Work</h2>
+        <p>Work for <span id="clientName"></span>.</p>
+        <!-- Add additional content or customize as needed -->
+        <img class="client-image" src="images/client/client.png" alt="Client Work Image">
+    </div>
+</div>
+
+
+
+    
+    </section>
+    <script src="webdesign.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.js"></script>
+</body>
